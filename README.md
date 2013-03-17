@@ -13,16 +13,16 @@ Similar tools with way more features that are probably more stable are listed on
 
 build it with
 
-'lein uberjar'
+    lein uberjar
 
 run it with
 
-'java -jar target/dupefinder-VERSION-standalone.jar /some/directory/'
+    java -jar target/dupefinder-VERSION-standalone.jar /some/directory/
 
 Outputs filesize, hash and absolute path to the suspected duplicates
 
-47 	 c347d69b388abbabaf2f894c4200465c 	 /some/directory/some.file.txt
-47 	 c347d69b388abbabaf2f894c4200465c 	 /some/directory/duplicate.file.txt
+    47 	 c347d69b388abbabaf2f894c4200465c 	 /some/directory/some.file.txt
+    47 	 c347d69b388abbabaf2f894c4200465c 	 /some/directory/duplicate.file.txt
 
 ## License
 
